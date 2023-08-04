@@ -25,7 +25,7 @@ li:hover{
 
 /* section1 */
 .sec1{
-    background-image: url('./AirbnbImages/1div_img.webp');
+    background-image: url('./1div_img.webp');
     height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
