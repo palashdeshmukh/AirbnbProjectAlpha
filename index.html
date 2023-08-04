@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./container.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <!--Navbar-->
+    <div class="px-5">
+        <img src="./AirbnbImages/airbnb_logo.jpeg" alt="logo" width="150px">
+        <ol>
+            <li>Become a Host</li>
+            <a href="./container.html"><li>Sign up</li></a>
+            <a href="./container.html"><li>Log in</li></a>
+        </ol>
+    </div>
+
+
+ 
+    
+    <div class="container">
+
+        <!--section 1-->
+
+        <div class="sec1" id="holidayMain">
+            <div id="holidayContainer">
+                <h1>Holiday rentals in India</h1>
+                <p>Find and book unique accommodation on<br>Airbnb</p>
+                <div id="mainContainer">
+                <div id="locationContainer">
+                    <label for="location">LOCATION</label>
+                    <input type="text" id="location" name="location" placeholder="Anywhere" required>
+                </div>
+                <div id="checkContainer">
+                    <div id="checkInContainer">
+                        <label for="checkIn">CHECK OUT</label>
+                        <input type="date" name="checkIn" id="checkIn" placeholder="Hey">
+                    </div>
+                    <div id="checkOutContainer">
+                        <label for="checkOut">CHECK OUT</label>
+                        <input type="date" name="checkOut" id="checkOut">
+                    </div>
+                </div>
+                <button id="TheSearchBtn">Search</button>
+            
+            </div>
+            </div>
+
+        </div>
+          <!--section 2-->
+
+        <div>
+            <h2>Top-Rated Holiday Rentals in India</h2>
+            <p>Guests agree:these stays are highly rated for location,cleanliness,and more.</p>
+            <div class="row">
+                <div class="col-lg-4" >
+                   <img src="./AirbnbImages/sec2_1.webp" alt="" height="395px" width="416px" class="sec2"><br><br>
+                   <h4>Private Room in Leh</h4>
+                   <p>Hidden Valley Homestay, Stakmo village. Leh Ladakh<br> A warm welcome to Hidden Valley Homestay Stakmo. Hidden Valley Homestay is located in the Village of Stakmo and is around 40 minutes drive (21 Kilometers) from the city of Leh.<br> Rs.1,700 Night</p>
+                </div>
+                <div class="col-lg-4">
+                   <img src="./AirbnbImages/sec2_2.webp" alt="" height="395px" width="416px" class="sec2"><br><br>
+                   <h4>Treehouse in Jibhi</h4>
+                   <p>Whispering Pines Cottages] Treehut| Tandi<br>
+                    ★ You'll be taken care of by one of the most successful Airbnb hosts in the country. The treehouse is nestled in the Himalayan subtropical pine forests.<br>Rs.4,356 Night </p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="./AirbnbImages/sec2_3.webp" alt="" height="395px" width="416px" class="sec2"><br><br>
+                    <h4>Private Room in Tandi</h4>
+                    <p>Jobless Wanderer's Home | A Kathkuni Heritage<br>
+                    Ours is a traditional Himachali home, made of deodar, stones & mud, surrounded by a 360-degree view of the greater Himalayas. We live in an acre of farmland with our three dogs- Bhairon,Badal & Bijli.<br>Rs.1,300 Night</p>
+                </div>
+            </div>
+         </div><br>
+
+          <!--section 3-->
+
+         <div>
+            <h2>Holiday rentals for every style</h2>
+            <p>Get the amount of space that is right for you.</p>
+            <div class="row">
+                <div class="col-lg-4">
+                   <img src="./AirbnbImages/sec3_1.webp" alt="" height="332px" width="416px" class="sec3"><br><br>
+                   <h4>Houses</h4>
+                   <p>A space thats all yours, with room for everyone</p>
+                </div>
+                <div class="col-lg-4">
+                   <img src="./AirbnbImages/sec3_2.webp" alt="" height="332px" width="416px" class="sec3"><br><br>
+                   <h4>Apartments</h4>
+                   <p>Convenient locations with everyday essentials</p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="./AirbnbImages/sec3_3.webp" alt="" height="332px" width="416px" class="sec3"><br><br>
+                    <h4>villas</h4>
+                    <p>Luxurious estates for the ultimate escape</p>
+                </div>
+            </div>
+         </div><br>
+
+            <!-- icon -->
+
+         <h2>Popular amenities for indian holiday rentals.</h2><br>
+
+         <div class="icon_container">
+             
+             <div class="Box">
+                 <div style="color: black; font-size: 25px;" height="30px" width="30px">
+                      <i class="bi bi-cup-hot-fill"></i> </div>
+                 <p>kitchen</p>
+             </div>
+     
+             <div class="Box">
+                 <div style="color: black; font-size: 25px;" height="30px" width="30px">
+                      <i class="bi bi-wifi"></i> </div>
+                 <p>Wifi</p>
+             </div>
+             
+             <div class="Box">
+                 <div style="color: black; font-size: 25px;" height="30px" width="30px">
+                      <i class="bi bi-water"></i> </div>
+                 <p>Pool</p>
+             </div>
+     
+              <div class="Box">
+                 <div style="color: black; font-size: 25px;" height="30px" width="30px">
+                     <i class="bi bi-p-circle"></i></div>
+                 <p>Free parking on premises</p>
+              </div>
+     
+             <div class="Box">
+                <div style= "color:black; font-size: 25px;">
+                  <i class="bi bi-snow2"></i></div>
+                 <p>Air conditioning</p>
+             </div>
+     
+         </div><br>
+
+             
+           <!--section 4-->
+
+         <div>
+            <h2>Holiday rentals for every style</h2><br>
+            <div class="row">
+                <div class="col-lg-3">
+                   <img src="./AirbnbImages/sec4_1.webp" alt="" height="292px" width="308px" class="sec4"><br><br> 
+                   <h4>Treehouse in Munnar</h4>
+                   <p>Erumadam-The tree house at Marayoor,...<br>Rs.12,000 Night</p>
+                </div>
+                <div class="col-lg-3">
+                   <img src="./AirbnbImages/sec4_2.webp" alt="" height="292px" width="308px" class="sec4"><br><br>
+                   <h4>Private Room in Tandi</h4>
+                   <p>Jobless wanderer's home | A Kathukuni...<br>Rs.1,300 Night </p>
+                </div>
+                <div class="col-lg-3">
+                    <img src="./AirbnbImages/sec4_3.webp" alt="" height="292px" width="308px" class="sec4"><br><br>
+                    <h4>Earthen home in Auroville</h4>
+                    <p>Lotus studio in Skandavan's garden,...<br>Rs.2,600 Night</p>
+                </div>
+                <div class="col-lg-3">
+                    <img src="./AirbnbImages/sec_4.webp" alt="" height="292px" width="308px" class="sec4"><br><br>
+                    <h4>Home in New Delhi</h4>
+                    <p>JACUZZI, STUNNING1BR, TERRACE,...<br> Rs.9,236 Night</p>
+                </div>
+            </div>
+         </div><br>
+ 
+        <!--section 5-->
+
+        <div>
+            <div class="row">
+                <div class="col-lg-3">
+                   <img src="./AirbnbImages/sec5_1.webp" alt="" height="292px" width="308px" class="sec5"><br><br>
+                   <h4>rental unit in siolim</h4>
+                   <p>Luxury Studio duplex apartment<br>Rs. 2,142 Night</p>
+                </div>
+                <div class="col-lg-3">
+                   <img src="./AirbnbImages/sec5_2.webp" alt="" height="292px" width="308px" class="sec5"><br><br>
+                   <h4>Villa in Anjuna</h4>
+                   <p>Tulumish style Boutique Villa With Private...<br>Rs.22,357 Night </p>
+                </div>
+                <div class="col-lg-3">
+                    <img src="./AirbnbImages/sec5_3.webp" alt="" height="292px" width="308px" class="sec5"><br><br>
+                    <h4>Cottage in Calangute</h4>
+                    <p>Serendipity Cottage in Calangute-Baga.<br>Rs.4,079 Night</p>
+                </div>
+                <div class="col-lg-3">
+                    <img src="./AirbnbImages/sec5_4.webp" alt="" height="292px" width="308px" class="sec5"><br><br>
+                    <h4>Loft in Nerul</h4>
+                    <p>Striking Penthouse With Private Plunge Pool.<br> Rs.9,999 Night</p>
+                </div>
+            </div>
+         </div> <br>
+         
+          <!--section 6-->
+
+        <div>
+            <div class="row">
+                <div class="col-lg-3">
+                   <img src="./AirbnbImages/sec6_1.webp" alt="" height="292px" width="308px" class="sec6"><br><br>
+                   <h4>Private room in Kodagu</h4>
+                   <p>Tool House (3): Great Estate Stay for Remot...<br>Rs.3,894 Night</p>
+                </div>
+                <div class="col-lg-3">
+                   <img src="./AirbnbImages/sec6_2.webp" alt="" height="292px" width="308px" class="sec6"><br><br>
+                   <h4>Private room in Morjim</h4>
+                   <p>Cute Riverside Cottage 2 mins to Morjim...<br>Rs.1,589 Night </p>
+                </div>
+                <div class="col-lg-3">
+                    <img src="./AirbnbImages/sec6_3.webp" alt="" height="292px" width="308px" class="sec6"><br><br>
+                    <h4>Chalet in Jagatsukh</h4>
+                    <p>Luxurious Private Chalet W/Hot Tub & 360-degree...<br>Rs.2,999 Night</p>
+                </div>
+                <div class="col-lg-3">
+                    <img src="./AirbnbImages/sec6_4.webp" alt="" height="292px" width="308px" class="sec6"><br><br>
+                    <h4>Cabin in Mahagaon</h4>
+                    <p>Secret 3-Bedroom Cabin on a hill Near...<br> Rs.25,143 Night</p>
+                </div>
+            </div>
+         </div> <br>
+
+             <!-- footer -->
+         
+         <h3>Other type of stays on Airbnb</h3>
+
+         <div class="footer_container">
+             
+             <div class="footer">
+                 <p>India Monthly stays</p>
+             </div>
+     
+             <div class="footer">
+                 <p>House Rentals In India</p>
+             </div>
+             
+             <div class="footer">
+                <p>Apartment Rentals In India</p>
+             </div>
+     
+              <div class="footer">
+                <p>Villa rental In India</p>
+              </div>
+     
+         </div>
+     
+         <div class="FC">
+           <p>Airbnb > India</p>
+         </div>
+
+    </div>
+      <!-- Copywrite section -->
+      <div id="copywriteContainer">
+        <div id="copywriteInnerContainer">
+            <!-- Copywrite box with links -->
+            <div class="copyWriteBox">
+                <!-- Mini links for copywrite section -->
+                <div class="miniLinks">
+                    <a href="#"> 2023 Airbnb, Inc.</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Sitemap</a>
+                    <a href="#">Company details</a>
+                </div>
+            </div>
+
+            <!-- Copywrite box with footer icons -->
+            <div class="copyWriteBox">
+                <!-- Footer icon container -->
+                <div class="footerIconContainer">
+                    <!-- Footer container one -->
+                    <div class="footerContainerOne"><ul>
+                        <li><i class="bi bi-globe"></i></li>
+                        <li>English</li>
+                        <li></li>
+                        <li><i class="bi bi-currency-rupee"></i></li>
+                        <li>INR</li>
+                    </ul></div>
+                    <!-- Footer container one with social media links -->
+                    <div class="footerContainerOne">
+                        <ul>
+                            <li><i class="bi bi-facebook"></i></li>
+                            <li><i class="bi bi-twitter"></i></li>
+                            <li><i class="bi bi-instagram"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

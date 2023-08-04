@@ -1,0 +1,213 @@
+/* Global styles for all elements */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Styling for the body */
+
+  .SignMainContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Styling for the container div */
+  .container {
+    border: 1px solid lightgrey;
+    box-shadow: 0px 0px 3px 0px lightgrey;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 680px;
+    width: 500px;
+    margin: 20px 0px;
+  }
+  
+  /* Styling for the box-four class */
+  .box-four {
+    margin: 20px 0px;
+    font-weight: bold;
+  }
+  
+  /* Styling for the button inside the box-four class */
+  .box-four button {
+    height: 48px;
+    width: 100%;
+    background-color: #ea1f5e;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  /* Styling for the websiteLink class */
+  .websiteLink {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+  }
+  
+  /* Styling for the websiteLinkImg class */
+  .websiteLinkImg {
+    border-radius: 10px;
+    display: flex;
+    width: 100%;
+    box-shadow: 0px 0px 5px 0px lightgray;
+  }
+  
+  /* Styling for the logText and logBox classes */
+  .logText, .logBox {
+    padding: 10px 0px;
+    box-shadow: 0px 0px 1px 0px;
+  }
+  
+  /* Styling for the logBox class */
+  .logBox {
+    display: block;
+    padding-left: 50px;
+    width: 30%;
+    font-size: 24px;
+    color: black ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  /* Hover styles for social media login icons */
+  .face:hover {
+    background-color: #3b5998;
+    color: white;
+  }
+  
+  .google:hover {
+    background-color: #DB4437;
+    color: white;
+  }
+  
+  .apple:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .email:hover {
+    background-color: #F4B400;
+    color: white;
+  }
+  
+  /* Styling for the logText class */
+  .logText {
+  
+    width: 70%;
+    color:black;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  /* Styling for the countrySelect class */
+  .countrySelect {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 2px 0px grey;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+  
+  /* Styling for the phoneNumber class */
+  .phoneNumber {
+    display: flex;
+    box-shadow: 0px 0px 2px 0px grey;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 10px 0px;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+  
+  /* Styling for the label and input inside the phoneNumber class */
+  .phoneNumber label, input {
+    padding: 3px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    text-align: center;
+  }
+  
+  /* Styling for the label and select inside the countrySelect class */
+  .countrySelect label, select {
+    padding: 3px;
+    border: none;
+    text-align: center;
+    background-color: transparent;
+  }
+  
+  /* Styling for label elements */
+  label {
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  
+  /* Styling for the MainLinksConnection class */
+  .MainLinksConnection {
+    font-size: 13.2px;
+    padding: 5px 0px;
+    margin-top: 5px;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: nowrap;
+  }
+  
+  /* Styling for anchor links inside the MainLinksConnection class */
+  .MainLinksConnection a {
+    width: 100%;
+  }
+  
+  /* Styling for h3 and h2 elements inside the form */
+  form h3 {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  form h2 {
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  
+  /* Styling for the select element */
+  select {
+    color:gray;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  /* Styling for the placeholder of input type number */
+  input[type="number"]::placeholder {
+    color: gray;
+    font-size: 16px;
+    
+  }
+  

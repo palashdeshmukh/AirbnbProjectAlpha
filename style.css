@@ -1,0 +1,206 @@
+/* Navbar */
+a{
+list-style: none;
+text-decoration: none;
+color:black;
+}
+ol{
+    float: right;
+    margin: 0px;
+    top: 0;
+    position: sticky;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+
+    padding-top: 30px;
+}
+ol li{
+    color: black;
+}
+li:hover{
+    cursor: pointer;
+}
+
+/* section1 */
+.sec1{
+    background-image: url('./AirbnbImages/1div_img.webp');
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+/* section2 */
+.sec2{
+    border-radius: 25px;
+}
+/* section3 */
+.sec3{
+    border-radius: 15px;
+}
+/* section4 */
+.sec4{
+    border-radius: 15px;
+}
+/* section5 */
+.sec5{
+    border-radius: 15px;
+}
+/* section6 */
+.sec6{
+    border-radius: 15px;
+}
+
+
+
+/* icon */
+h2{
+    padding-top: 30px;
+}
+.icon_container{
+    display: flex;
+}
+.Box{
+    border: 1px solid white;
+    border-radius: 15px;
+    height: 115px;
+    width: 246.113px;
+    margin: 1px 0 0 0;
+    padding: 30px 25px 30px 25px;
+    margin-right: 20px;
+    box-shadow: 2px 5px rgb(211, 206, 206);
+    background-color: white;
+}
+
+
+/* footer */
+h3{
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .footer_container{
+    display: flex;
+  }
+  .footer{
+      border: 1px solid white;
+      border-radius: 15px;
+      height: 22px;
+      width: 193.336px;
+      margin: 1px 0 0 0;
+      padding: 30px 25px 30px 25px;
+      font-size: 18px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .FC{
+      padding-top: 60px;
+      padding-left: 20px;
+    }
+    #holidayMain{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding-left: 45px;
+    }
+ 
+    #holidayContainer{
+        width: 420px;
+        padding: 28px 32px;
+        border-radius: 20px;
+        background-color: white;
+
+
+    }
+    
+      #holidayContainer p{
+        width: 356px;
+        color: #717171;
+        padding: 5px 2px;
+
+      }
+      #locationContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 356px;
+        height: 56px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 16px;
+        line-height: 25px;
+        border: 1.5px solid  #717171;
+
+
+        }
+        #locationContainer input{
+            height: 30px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+
+        }
+      #checkInContainer,#checkOutContainer{
+        display: flex;
+        flex-direction: column;
+      }
+
+    #checkContainer{
+        width: 356px;
+        height: 56px;
+        display: flex;
+        line-height: 30px;
+        border-radius: 10px;
+        
+    }
+    #checkInContainer,#checkOutContainer{
+        width: 50%;
+        border: 1.5px solid  #717171;
+        padding: 0px 15px;
+        border-radius: 10px;
+
+
+    }
+    #checkInContainer{
+        border-top-right-radius:0;
+       border-bottom-right-radius:0;
+
+    }
+    #checkOutContainer{
+        border-top-left-radius:0;
+        border-bottom-left-radius:0;
+    }
+    input[type="date"]{
+        height: 20px;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        color: #717171;
+        padding-right: 5px;
+
+    }
+   
+    #TheSearchBtn{
+        height: 48px;
+        width: 356px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        background-color: #e4195d;
+    }
+    #mainContainer{
+       margin-top: 10px;
+       display: flex;  
+       flex-direction: column;     
+       gap: 10px;
+     }
+     label{
+        font-weight: bold;
+        font-family:sans-serif;
+        color: #717171;
+        font-size: 12px;
+     }
