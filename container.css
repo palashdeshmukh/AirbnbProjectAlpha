@@ -65,12 +65,16 @@ a{
     padding: 10px;
     background-color:#f7f7f7;
     border: 1px solid lightgray;
+    display: flex;
+   justify-content: center;
 }
 
 #contactNavbar {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    width: 100%;
+   max-width: 1440px;
 
 }
 
